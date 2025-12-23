@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness Manager 公式サイト</title>
+    <title>Fitness Manager - 筋トレとランニングを統合管理</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; color: #333; }
-        h1 { color: #007bff; }
-        .links { margin-top: 20px; }
-        a { color: #007bff; text-decoration: none; margin: 0 10px; }
-        a:hover { text-decoration: underline; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; text-align: center; padding: 50px 20px; color: #333; background-color: #f8f9fa; }
+        .card { max-width: 500px; margin: 0 auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #007bff; font-size: 28px; margin-bottom: 10px; }
+        p { line-height: 1.6; color: #666; }
+        .badge img { width: 220px; transition: transform 0.2s; }
+        .badge img:hover { transform: scale(1.05); }
+        .links { margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+        a.policy-link { color: #007bff; text-decoration: none; font-size: 14px; }
+        a.policy-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>Fitness Manager</h1>
-    <p>あなたのワークアウトと健康管理をサポートするAndroidアプリです。</p>
-    <div class="links">
-        <a href="privacy.html">プライバシーポリシー</a>
+    <div class="card">
+        <h1>Fitness Manager</h1>
+        <p>心拍数データに基づいた精密な分析で、<br>あなたのワークアウトを科学的にサポート。</p>
+        
+        <div class="badge">
+            <a href='https://play.google.com/store/apps/details?id=to.msn.wings.fitnessmanager'>
+                <img alt='Google Play で手に入れよう' src='https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png'/>
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html" class="policy-link">プライバシーポリシー</a>
+        </div>
     </div>
 </body>
 </html>
